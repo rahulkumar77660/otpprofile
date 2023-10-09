@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "239480960315",
+    "project_id": "phoneotpverifcation-b8bcd",
+    "storage_bucket": "phoneotpverifcation-b8bcd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239480960315:android:1a3c4e5bc48595871c331e",
+        "android_client_info": {
+          "package_name": "com.example.otpprofile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPX-LDGukHZc3x74clfwCSwsbCX7jmJqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239480960315:android:60dc60ec8a7fcfc11c331e",
+        "android_client_info": {
+          "package_name": "com.example.phoneotpverifcation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPX-LDGukHZc3x74clfwCSwsbCX7jmJqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

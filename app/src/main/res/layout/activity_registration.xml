@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#446ADD"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginLeft="90sp"
+        android:layout_marginTop="-80sp"
+        android:text="Registration Form"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:id="@+id/inpu1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30sp"
+        >
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpu1"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="17dp"
+        >
+
+        <EditText
+            android:id="@+id/userAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Age"
+            android:maxLength="3"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textSize="20sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="17dp"
+        >
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:hint="Enter Your Email"
+            android:textSize="20sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input3"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="17dp"
+        >
+
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Phone"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:textSize="20sp"
+            android:maxLength="12"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RegisterDataBase"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="60sp"
+        android:layout_marginTop="80sp"
+        android:backgroundTint="#A1520D"
+        android:layout_below="@id/input4"
+        />
+
+
+</RelativeLayout>

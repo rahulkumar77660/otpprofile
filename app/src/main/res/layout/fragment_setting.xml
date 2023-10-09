@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/getname"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/getname"
+        android:textSize="20dp"
+        android:id="@+id/getemail"
+        android:layout_marginTop="5dp"
+        android:text="email"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/getemail"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/getage"
+        android:text="age"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datadelete"
+        android:text="Delete"
+        android:layout_marginHorizontal="80dp"
+        android:layout_below="@+id/getage"
+        android:layout_marginTop="50dp"
+
+        />
+
+</RelativeLayout>
